@@ -36,13 +36,22 @@
     // $value = round($x);
     // $value = pow($x, $y);
     // $value =sqrt($x);
-    $value =sqrt($x, $y, $z);
-    $value =sqrt($x, $y, $z);
-
-
-
-
-
+    // $value =max($x, $y, $z);
+    // $value =sqrt($x, $y, $z);
+    // $value =pi();
+    // $value =rand(1,8);
     echo $value;
+
+
+    $circumference = null;
+    $circumference = 2*pi()*$x;
+    $circumference = round($circumference, 2);
+    echo $circumference
+
+
+
+
+
+
 
 ?>
